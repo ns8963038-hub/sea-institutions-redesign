@@ -29,8 +29,6 @@ export function initTheme() {
     });
   });
 
-  // Follow OS preference while the visitor hasn't chosen explicitly.
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    if (store.get(KEY) === null) apply(e.matches ? 'dark' : 'light');
-  });
+  // Light is the house default; dark is an explicit visitor choice
+  // via the toggle, so no OS-preference listener here.
 }
