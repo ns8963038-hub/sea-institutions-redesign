@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | SEA Group of Institutions</title>
+  <meta name="description" content="How admission works at SEA — the four-step journey, eligibility, financial aid, NRI and foreign-national guidance, helplines and official notices.">
+  <meta property="og:title" content="Admissions | SEA Group of Institutions">
+  <meta property="og:description" content="How admission works at SEA — the four-step journey, eligibility, financial aid, NRI and foreign-national guidance, helplines and official notices.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero/campus-life.jpg">
+  <meta name="theme-color" content="#0D5C46">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>
+    /* Apply the saved theme before first paint — no flash of wrong theme. */
+    (function () {
+      try {
+        var t = JSON.parse(localStorage.getItem('sea-theme'));
+        document.documentElement.dataset.theme =
+          t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crest"><img src="assets/logo/logo.png" alt="" width="284" height="89"></div>
+    <div class="loader-line"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="SEA Group of Institutions — home">
+        <span class="brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link" href="institutions.html">Institutions</a>
+        <a class="nav-link" href="admissions.html" aria-current="page">Admissions</a>
+        <a class="nav-link" href="placements.html">Placements</a>
+        <a class="nav-link" href="campus.html">Campus</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="btn btn-primary nav-apply" href="apply.html">Apply now</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn search-toggle" aria-label="Search the site (Ctrl+K)">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a class="btn btn-primary" href="apply.html">Apply now</a>
+        <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+      <div class="scroll-progress" aria-hidden="true"></div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Admissions</span>
+        </nav>
+        <p class="section-kicker">Admissions 2026–27</p>
+        <h1>Your seat at SEA is four steps away.</h1>
+        <p class="lede">A transparent, merit-first admission process across all twelve institutions — with helplines, financial-aid guidance and support for international students.</p>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section" id="timeline">
+      <div class="container">
+        <div class="section-head" style="text-align:center;margin-inline:auto">
+          <p class="section-kicker" style="justify-content:center">How it works</p>
+          <h2>The admission journey.</h2>
+        </div>
+        <div class="timeline">
+          <svg class="timeline-svg" viewBox="0 0 4 1000" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M2 0 V1000" stroke="var(--border)" stroke-width="4" fill="none"/>
+            <path class="timeline-path" d="M2 0 V1000" pathLength="1" stroke="var(--gold-500)" stroke-width="4" fill="none"/>
+          </svg>
+          <div class="timeline-steps">
+          <div class="timeline-step">
+            <span class="t-num" aria-hidden="true">01</span>
+            <article class="card reveal">
+              <h3>Apply</h3>
+              <p>Begin your journey with the online or offline application form — personal details, academic background and the required documents.</p>
+            </article>
+          </div>
+
+          <div class="timeline-step">
+            <span class="t-num" aria-hidden="true">02</span>
+            <article class="card reveal">
+              <h3>Interview</h3>
+              <p>The admissions team schedules a conversation to understand your interests, aspirations and suitability for the programme.</p>
+            </article>
+          </div>
+
+          <div class="timeline-step">
+            <span class="t-num" aria-hidden="true">03</span>
+            <article class="card reveal">
+              <h3>Documents</h3>
+              <p>Submit any additional requested records — academic transcripts, letters of recommendation or proof of identity.</p>
+            </article>
+          </div>
+
+          <div class="timeline-step">
+            <span class="t-num" aria-hidden="true">04</span>
+            <article class="card reveal">
+              <h3>Confirmation</h3>
+              <p>The admissions committee reviews your application, and successful candidates receive a formal confirmation.</p>
+            </article>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section section-alt" id="categories">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Eligibility &amp; categories</p>
+          <h2>Everything you need to know.</h2>
+        </div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">General admission & fair treatment<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="accordion-panel"><div><div class="accordion-body">
+              <p>SEA Group believes in moving with the times and is often a torchbearer in adopting new techniques in education — the admission process included. Students and parents can review syllabus and placement details for every course on this site and choose accordingly; if you still need help, approach us directly and we will guide you along.</p>
+              <p style="margin-top:.75rem">The admission process is transparent: if the documents and mark sheets meet the requirements and the student is selected for the applied course, we intimate you at the earliest by email or telephone. Once you receive news of your admission, the course fee must be paid before the due date, failing which the admission is considered void.</p>
+              <p style="margin-top:.75rem">SEA College strongly believes in the fair treatment of everyone who applies. Here's wishing you good luck — and hoping you will soon be part of the South East Asian family.</p>
+            </div></div></div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Financial aid & scholarships<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="accordion-panel"><div><div class="accordion-body">
+              <p>SEA guides admitted students toward education loans from banks and recognised lenders. Typical education loans cover tuition, living and other expenses, offer repayment periods of 5–15 years, and include a moratorium (repayment holiday) of 6–12 months after the course ends.</p>
+              <p style="margin-top:.75rem"><strong>Documents lenders usually ask of the applicant:</strong></p>
+              <ul>
+                <li>Aadhaar / PAN card</li>
+                <li>Class X and XII mark sheets</li>
+                <li>University admission letter</li>
+                <li>Salary slip, if employed</li>
+              </ul>
+              <p style="margin-top:.75rem"><strong>Co-applicant documents:</strong> Aadhaar, PAN, residence proof, 6-month bank statement, ITR / Form 16, income proof, and an assets &amp; liabilities brief when offering collateral.</p>
+              <p style="margin-top:.75rem">The Trust also plans and extends scholarships under merit and merit-cum-means categories, and coordinates schemes including GOI and National Scholarships, Jindal, community-based endowments, free-ships, SC/ST scholarships from the Social Welfare Board and alumni awards. Contact the admissions office for the current year's options.</p>
+            </div></div></div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Foreign national admissions<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="accordion-panel"><div><div class="accordion-body">
+              <p>The process for international students mirrors the standard one — the differences are the documents submitted and the visa steps that follow selection.</p>
+              <ul>
+                <li>Apply online or offline (common to all students); selected students are intimated.</li>
+                <li>Part of the tuition fee is paid at this stage, based on the intimated amount.</li>
+                <li>The college then issues details for visa processing.</li>
+                <li>Submit all required documents and complete the tuition fee before the due date.</li>
+              </ul>
+              <p style="margin-top:.75rem"><strong>Documents for international admissions:</strong> mark sheets of 10th and 12th (or equivalent) — plus the UG degree mark sheet for PG applicants; an eligibility certificate from a relevant Indian university; conduct/character and transfer certificates; copies of a valid passport and student visa or residential permit; an HIV clearance certificate; and ten passport-size and ten stamp-size photographs.</p>
+              <p style="margin-top:.75rem">Where the earlier medium of instruction was not English, an intensive six-month English course runs alongside the chosen stream. Write to <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a> and our counsellors will guide you through the whole process.</p>
+            </div></div></div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">NRI admissions<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="accordion-panel"><div><div class="accordion-body">
+              <p>International and NRI students seeking admission through the management process can contact the Admission Cell at the campus directly or apply through the website form — the admission office takes up further processing.</p>
+              <p style="margin-top:.75rem">Selection is purely on academic merit and aptitude. No entrance tests are required; the college conducts an interview and assessment before granting admission.</p>
+              <p style="margin-top:.75rem"><strong>Sample eligibility — B.E.:</strong> a pass in PUC or 10+2 equivalent with a minimum of 45% aggregate (40% for SC/ST and OBC) in Physics and Mathematics along with Biology, Chemistry, Computer Science or Electronics.</p>
+              <p style="margin-top:.75rem">Enquiries: <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a> · <a href="tel:+917353945999">+91 73539 45999</a> · <a href="tel:+918029730681">080 2973 0681</a></p>
+            </div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Helplines -->
+    <section class="section" id="helplines">
+      <div class="container">
+        <div class="section-head split">
+          <div>
+            <p class="section-kicker">Talk to a human</p>
+            <h2>Admission helplines.</h2>
+          </div>
+          <p class="muted" style="max-width:26rem">Office of Admissions · Monday to Saturday, 10:00 AM – 5:00 PM</p>
+        </div>
+        <div class="grid grid-3" data-stagger="50">
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A College of Engineering</h3>
+              <a href="tel:+917353945999">+91 73539 45999</a><a href="tel:+919448956755">+91 94489 56755</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A Management College</h3>
+              <a href="tel:+917353945999">+91 73539 45999</a><a href="tel:+919448956755">+91 94489 56755</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A Degree College</h3>
+              <a href="tel:+919900732511">+91 99007 32511</a><a href="tel:+918029730623">080 2973 0623</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A College of Nursing</h3>
+              <a href="tel:+919886420018">+91 98864 20018</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A College of Law</h3>
+              <a href="tel:+919886420018">+91 98864 20018</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A Composite PU College</h3>
+              <a href="tel:+917795037789">+91 77950 37789</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A Industrial Training Institute</h3>
+              <a href="tel:+919448769633">+91 94487 69633</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A ICSE School</h3>
+              <a href="tel:+919886028742">+91 98860 28742</a><a href="tel:+918029730623">080 2973 0623</a>
+            </div>
+          </article>
+
+          <article class="card helpline-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>S.E.A State Board School</h3>
+              <a href="tel:+917829934560">+91 78299 34560</a><a href="tel:+917975365727">+91 79753 65727</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notices -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Official notices</p>
+          <h2>Admission notices from SEA.</h2>
+          <p class="lede">Promotional notices published by SEA Group of Institutions — swipe through for programme-specific contacts.</p>
+        </div>
+        <div class="notice-scroller" tabindex="0" aria-label="Admission notices — horizontally scrollable">
+          <figure>
+            <img src="assets/banners/engineering.jpg" alt="Engineering admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>Engineering admissions notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/ranker.jpg" alt="VTU ranker felicitation notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>VTU ranker felicitation notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/degree.jpg" alt="Degree college admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>Degree college admissions notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/nursing.jpg" alt="Nursing admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>Nursing admissions notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/pu-banner.jpg" alt="Pre-University admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>Pre-University admissions notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/law.jpg" alt="Law college admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>Law college admissions notice</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/banners/iti.jpg" alt="ITI admissions notice published by SEA" width="825" height="830" loading="lazy">
+            <figcaption>ITI admissions notice</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-band cta-band">
+      <div class="container">
+        <p class="section-kicker" style="justify-content:center">Ready when you are</p>
+        <h2>Start your application online.</h2>
+        <p class="lede">Prepare your application in minutes — drafts save automatically on your device.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="apply.html">Apply now <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-outline" href="contact.html">Talk to admissions</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-watermark" aria-hidden="true">SEA</span>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+          <p>South East Asian Education Trust — academic excellence, meaningful experiences and a community built to shape reflective global citizens since 2000.</p>
+          <div class="footer-links" style="margin-top:1rem">
+            <a href="https://www.facebook.com/share/1C2GkDRqiD/" target="_blank" rel="noopener">Facebook ↗</a>
+            <a href="https://www.instagram.com/sea_group_of_institutions/" target="_blank" rel="noopener">Instagram ↗</a>
+            <a href="https://youtube.com/@seaedu2023" target="_blank" rel="noopener">YouTube ↗</a>
+          </div>
+        </div>
+        <nav aria-label="Explore">
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="about.html">About us</a>
+            <a href="programs.html">Programs</a>
+            <a href="institutions.html">Institutions</a>
+            <a href="campus.html">Campus life</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </nav>
+        <nav aria-label="Admissions">
+          <h3>Admissions</h3>
+          <div class="footer-links">
+            <a href="admissions.html">How to join</a>
+            <a href="apply.html">Apply online</a>
+            <a href="placements.html">Placements</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </nav>
+        <div>
+          <h3>Reach us</h3>
+          <div class="footer-links">
+            <a href="tel:+916366453030">+91 63664 53030</a>
+            <a href="tel:+917353945999">+91 73539 45999</a>
+            <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a>
+          </div>
+          <p style="margin-top:.75rem">Ekta Nagar, Basavanapura, Virgonagar P.O.,<br>K R Puram, Bengaluru — 560049</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Email for updates" aria-label="Email address for updates" autocomplete="email">
+            <button class="btn btn-primary" type="button">Notify me</button>
+          </div>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 South East Asian Education Trust, Bengaluru</span>
+        <span>Original redesign concept — built with HTML, CSS &amp; vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="palette-box">
+      <div class="palette-input-row">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input class="palette-input" type="search" placeholder="Search pages, programs, institutions…" aria-label="Search the site" autocomplete="off">
+        <kbd>Esc</kbd>
+      </div>
+      <div class="palette-results"></div>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+  </button>
+</body>
+</html>
