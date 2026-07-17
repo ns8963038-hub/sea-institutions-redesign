@@ -68,6 +68,16 @@ program details expanding in place.
 
 **All 10 bonus features** from the brief are implemented and demonstrable.
 
+## Lighthouse (production, homepage — Lighthouse 12)
+
+| | Performance | Accessibility | Best Practices | SEO |
+|---|:---:|:---:|:---:|:---:|
+| **Mobile** | 95 | **100** | **100** | **100** |
+| **Desktop** | 96 | **100** | **100** | **100** |
+
+CLS 0.002 · TBT 0 ms · zero console errors — audited against
+[the live deployment](https://sea-institutions-redesign.vercel.app).
+
 ## Accessibility & performance
 
 - Semantic landmarks, one `h1` per page, skip-to-content, visible gold focus rings
