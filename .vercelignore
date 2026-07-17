@@ -1,4 +1,5 @@
-# Never upload scraped source material or dev tooling to the deployment
+# Never upload scraped source material, dev tooling or dotfiles
+.*
 content
 raw-html
 extract-content.js
@@ -8,4 +9,3 @@ brand-brief.md
 design-system
 scripts
 node_modules
-.DS_Store
