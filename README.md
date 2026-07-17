@@ -5,6 +5,18 @@
 > No frameworks, no libraries, no CDN scripts. Every icon, animation and interactive
 > system is hand-written.
 
+### 🌐 Live: **[sea-institutions-redesign.vercel.app](https://sea-institutions-redesign.vercel.app)**
+
+## ⏱️ The 2-minute tour
+
+1. **Press <kbd>Ctrl</kbd>+<kbd>K</kbd>** anywhere → type `hostel` → Enter. A hand-built fuzzy-search command palette over every page, section and program.
+2. **Toggle the theme** (sun/moon, top right) — the choice persists across pages and visits, with no flash-of-wrong-theme on reload.
+3. Open **[Programs](https://sea-institutions-redesign.vercel.app/programs)** → search, filter by level, tick **Compare** on three programs → *Compare now* for a side-by-side table.
+4. **Heart a program, then refresh the page** — your shortlist survives (localStorage, no backend).
+5. Open **[Apply](https://sea-institutions-redesign.vercel.app/apply)** → type a name, refresh — a banner offers to **restore your draft**. Finish the flow for the honest no-fake-submission success state.
+6. On **[Admissions](https://sea-institutions-redesign.vercel.app/admissions)**, scroll slowly — the gold timeline **draws itself**. In the [Gallery](https://sea-institutions-redesign.vercel.app/gallery), filter by campus and open the keyboard-driven lightbox (←/→/Esc).
+7. Resize to 375px — no horizontal scroll anywhere; the drawer, filters and forms all adapt.
+
 ![Home page — light theme](docs/screenshots/home-desktop.jpg)
 
 | Light · Dark · Mobile | |
@@ -39,7 +51,7 @@ program details expanding in place.
 
 | Module | Powers | Bonus feature |
 |---|---|---|
-| `theme.js` | Dark/light engine, persisted, OS-aware, no flash of wrong theme | ✅ Dark mode · theme switcher · localStorage |
+| `theme.js` | Dark/light engine — light-first, persisted choice, no flash of wrong theme | ✅ Dark mode · theme switcher · localStorage |
 | `loader.js` | Session-gated loading screen, dismisses when ready (~600ms) | ✅ Loading screen |
 | `nav.js` | Glass navbar, scroll progress bar, mobile drawer, scrollspy, back-to-top | ✅ Interactive components |
 | `slider.js` | Reusable slider class — cinematic Ken Burns hero + testimonials (autoplay, swipe, keyboard, pause) | ✅ Image slider |
@@ -92,7 +104,7 @@ demonstration does not transmit data and route users to the real admissions offi
 │   └── data/             programs-data.js · search-index.js
 ├── assets/               fonts/ img/ logo/ banners/
 ├── vercel.json           cleanUrls · custom 404 · immutable asset caching
-└── content/ raw-html/    scraped source material (reference only — not used by the site)
+└── scripts/              dev-only asset fetcher (not loaded by any page)
 ```
 
 ## Run it

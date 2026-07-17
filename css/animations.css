@@ -123,3 +123,14 @@
   .word-mask > span { animation: none; }
   .gold-underline::after { animation: none; transform: scaleX(1); }
 }
+
+/* ---- Theme-switch circular wipe (View Transitions API) ----
+   The clip-path circle is driven from theme.js; disable the default
+   cross-fade so the wipe is the only effect. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) { z-index: 1; }
+::view-transition-new(root) { z-index: 2; }
