@@ -1,0 +1,1454 @@
+[
+  {
+    "src": "https://seaedu.ac.in/backend/themes/material_pink/images/logo.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/engineering.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/ranker.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/degree.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/nursing.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/pu-banner.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/law.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/iti.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/international-school.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/banner/state-school.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/1.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/2.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/3.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/4.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/5.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/6.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/7.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/8.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/9.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/10.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/courses/11.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c1.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c2.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c3.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c4.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c5.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c6.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c7.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/courses/c8.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ic5.png ",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ic6.png ",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/about-2-1.png",
+    "alt": "banner ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ic7.png ",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ic8.png ",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/1.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement1.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement2.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement3.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement4.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement5.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement6.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recent-placements/placement7.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/ic1.png ",
+    "alt": " ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/ic2.png ",
+    "alt": " ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/ic3.png ",
+    "alt": " ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/ic4.png ",
+    "alt": " ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r1.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r2.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r3.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r4.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r5.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r6.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r7.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r8.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r9.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r10.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r11.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r12.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r13.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r14.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r15.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seacet-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seapu-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seaicse-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seasb-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/sealaw-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seaiti-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seacon-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seabed-principal.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/assets/images/blog-details/blog-1.jpg",
+    "alt": "daniel clifford",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonials/Sanjukta.jpg ",
+    "alt": "author ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonials/default.jpg ",
+    "alt": "author ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonials/Sneha.jpg ",
+    "alt": "author ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonials/default.jpg",
+    "alt": "author ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonials/Urbi.jpg ",
+    "alt": "author ",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/testimonial-img.jpg",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/1.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/2.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/3.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/4.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/5.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/associations/6.jpg",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/counter-shape-1.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/counter-shape-2.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/callus.png",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/whatsapp.ico",
+    "alt": "",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/white-logo.png",
+    "alt": "Image",
+    "page": "Home",
+    "section": "home"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/aboutus.jpg",
+    "alt": "",
+    "page": "Overview",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/Vision-icon.png",
+    "alt": "our-vision-mission",
+    "page": "Overview",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/Mission-icon.png",
+    "alt": "our-vision-mission",
+    "page": "Overview",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vis-mis.png",
+    "alt": "",
+    "page": "Overview",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/campus-img.jpg",
+    "alt": "Image",
+    "page": "Overview",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/Founder.jpg",
+    "alt": "",
+    "page": "Founder's Message",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/chairman.jpg",
+    "alt": "",
+    "page": "Chairman's Desk",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/founder1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/chairman1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/secretary1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/ceo1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/joint-secretary1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vice-president1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/member1.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/member2.jpg",
+    "alt": "",
+    "page": "Board of Trustees",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/director.jpg",
+    "alt": "",
+    "page": "Director's Message",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seaiti-principal.png\r\n                ",
+    "alt": "",
+    "page": "Principals",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/principal/seabed-principal.png\r\n                    ",
+    "alt": "",
+    "page": "Principals",
+    "section": "about"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/logistics.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/datascience.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/supplychainmgmt.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/robotic.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/cloudcomputing.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/blockchaintech.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/tally.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/sixsigma.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/ai.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/bigdata.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/coading.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/3dprinting.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/cybersecurity.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/constructionmgmt.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/digitalmkt.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/technicalpublication.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/excel.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/advancedexcel.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/vap/aviationmgmt.jpg",
+    "alt": "Image",
+    "page": "Value Added Programs",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/science1.jpg",
+    "alt": "Image",
+    "page": "Pre-University",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/commerce1.jpg",
+    "alt": "Image",
+    "page": "Pre-University",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/Arts1.jpg",
+    "alt": "Image",
+    "page": "Pre-University",
+    "section": "academics"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/seacet.jpg",
+    "alt": "Image",
+    "page": "SEA College of Engineering & Technology",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/mba.jpg",
+    "alt": "Image",
+    "page": "SEA College of Management Studies",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/research.jpg",
+    "alt": "Image",
+    "page": "SEA College of Research & Development Center",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/nursing.jpg",
+    "alt": "Image",
+    "page": "SEA College of Nursing",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/law.jpg",
+    "alt": "Image",
+    "page": "SEA College of Law",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/science-commerce-arts.jpg",
+    "alt": "Image",
+    "page": "SEA College of Science, Commerce & Arts",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pu.jpg",
+    "alt": "Image",
+    "page": "SEA Composite PU College",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/evening.jpg",
+    "alt": "Image",
+    "page": "SEA Evening College",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/bed.jpg",
+    "alt": "Image",
+    "page": "SEA B.Ed College",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/International.jpg",
+    "alt": "Image",
+    "page": "SEA International School",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/state.jpg",
+    "alt": "Image",
+    "page": "SEA Primary & Higher Secondary School",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/iti.jpg",
+    "alt": "Image",
+    "page": "SEA Industrial Training Institute",
+    "section": "institutions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/phone-logo.png",
+    "alt": "",
+    "page": "Admission Procedure",
+    "section": "admissions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/email-icon.png",
+    "alt": "",
+    "page": "Admission Procedure",
+    "section": "admissions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/clock-icon.png",
+    "alt": "",
+    "page": "Admission Procedure",
+    "section": "admissions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/cal-icon.png",
+    "alt": "",
+    "page": "Admission Procedure",
+    "section": "admissions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/campus-information-img.jpg",
+    "alt": "Image",
+    "page": "NRI Admission",
+    "section": "admissions"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/campus-infrastructurr.jpeg",
+    "alt": "",
+    "page": "Campus Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/sea-app.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/aicte-portal.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/gmeet-app.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/wifi.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/laptop.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ict-classroom.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/firewall.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/cctv.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/npf.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/google.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/placement-app.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/digital-lbrary.png",
+    "alt": "",
+    "page": "Digital Infrastructure",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/hostel-1.jpg",
+    "alt": "Image",
+    "page": "Accommodation & Hostel Facilities",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/hostel-2.jpg",
+    "alt": "Image",
+    "page": "Accommodation & Hostel Facilities",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/anti-rag.jpg",
+    "alt": "Image",
+    "page": "Accommodation & Hostel Facilities",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/about-shape.png",
+    "alt": "Image",
+    "page": "Accommodation & Hostel Facilities",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/1.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/2.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/3.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/4.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/5.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/6.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/7.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/8.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/9.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/11.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/12.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/13.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/10.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/14.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/15.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/sports/16.jpg",
+    "alt": "Image",
+    "page": "Sports",
+    "section": "campus"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph1.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph2.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph3.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph4.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph5.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph6.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph7.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph8.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/icons/ph9.png",
+    "alt": "image",
+    "page": "Placement Overview",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r1.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r2.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r3.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r4.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r5.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r6.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r7.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r8.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r9.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r10.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r11.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r12.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r13.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r14.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/recruiters/r15.jpg",
+    "alt": "image",
+    "page": "Recruiters",
+    "section": "placements"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacet1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/degree1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacon1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/sealaw1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seapu1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/icse1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seasb1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seaiti1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seabed1.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacet2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/degree2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacon2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/sealaw2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seapu2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/icse2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seasb2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seaiti2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seabed2.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacet3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/degree3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacon3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/sealaw3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seapu3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/icse3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seasb3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seaiti3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seabed3.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacet4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/degree4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seacon4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/sealaw4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seapu4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/icse4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seasb4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seaiti4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/gallery/seabed4.jpg",
+    "alt": "gallery",
+    "page": "Photo Gallery",
+    "section": "gallery"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pdf/b1.jpg",
+    "alt": "Image",
+    "page": "Brochures",
+    "section": "other"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pdf/b2.jpg",
+    "alt": "Image",
+    "page": "Brochures",
+    "section": "other"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pdf/b3.jpg",
+    "alt": "Image",
+    "page": "Brochures",
+    "section": "other"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pdf/b4.jpg",
+    "alt": "Image",
+    "page": "Brochures",
+    "section": "other"
+  },
+  {
+    "src": "https://seaedu.ac.in/backend/themes/pixel/images/pdf/b5.jpg",
+    "alt": "Image",
+    "page": "Brochures",
+    "section": "other"
+  }
+]
