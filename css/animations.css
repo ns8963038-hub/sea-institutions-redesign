@@ -1,0 +1,125 @@
+/* ============================================================
+   Animations — keyframes, scroll-reveal states, motion guards
+   Only transform & opacity are animated.
+   ============================================================ */
+
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes palette-in {
+  from { opacity: 0; transform: translateY(10px) scale(.985); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes field-shake {
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(2px); }
+}
+
+@keyframes loader-sweep {
+  from { transform: translateX(-120%); }
+  to   { transform: translateX(320%); }
+}
+
+@keyframes loader-breathe {
+  from { transform: scale(1); }
+  to   { transform: scale(1.04); }
+}
+
+@keyframes kenburns {
+  from { transform: scale(1.02); }
+  to   { transform: scale(1.12); }
+}
+
+@keyframes hero-word {
+  from { opacity: 0; transform: translateY(110%); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes underline-draw {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes check-pop {
+  0%   { transform: scale(.4); opacity: 0; }
+  70%  { transform: scale(1.08); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes float-drift {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-12px); }
+}
+
+/* ---- Scroll reveal states (activated by js/reveal.js) ---- */
+
+.reveal, .reveal-left, .reveal-right, .reveal-scale {
+  opacity: 0;
+  transition: opacity 700ms var(--ease), transform 700ms var(--ease);
+  transition-delay: var(--stagger, 0ms);
+  will-change: opacity, transform;
+}
+.reveal { transform: translateY(28px); }
+.reveal-left { transform: translateX(-36px); }
+.reveal-right { transform: translateX(36px); }
+.reveal-scale { transform: scale(.94); }
+
+.in.reveal, .in.reveal-left, .in.reveal-right, .in.reveal-scale {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero headline word-mask reveal */
+.word-mask { display: inline-block; overflow: hidden; vertical-align: bottom; }
+.word-mask > span {
+  display: inline-block;
+  animation: hero-word 800ms var(--ease) both;
+  animation-delay: var(--wd, 0ms);
+}
+
+.gold-underline { position: relative; white-space: nowrap; }
+.gold-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: .04em;
+  height: .1em;
+  background: var(--gold-400);
+  z-index: -1;
+  transform-origin: left;
+  animation: underline-draw 700ms var(--ease) 900ms both;
+}
+
+/* Admission timeline SVG path — drawn on scroll by js/reveal.js */
+.timeline-path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+/* ---- Reduced motion: calm everything down ---- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+
+  .reveal, .reveal-left, .reveal-right, .reveal-scale {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ticker-track { animation: none; }
+  .loader { display: none; }
+  .word-mask > span { animation: none; }
+  .gold-underline::after { animation: none; transform: scaleX(1); }
+}
