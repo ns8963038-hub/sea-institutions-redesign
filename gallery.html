@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | SEA Group of Institutions</title>
+  <meta name="description" content="Photos and videos from across SEA's twelve institutions — filter by campus and view every moment large.">
+  <meta property="og:title" content="Gallery | SEA Group of Institutions">
+  <meta property="og:description" content="Photos and videos from across SEA's twelve institutions — filter by campus and view every moment large.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero/campus-life.jpg">
+  <meta name="theme-color" content="#0D5C46">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>
+    /* Apply the saved theme before first paint — no flash of wrong theme. */
+    (function () {
+      try {
+        var t = JSON.parse(localStorage.getItem('sea-theme'));
+        document.documentElement.dataset.theme =
+          t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crest"><img src="assets/logo/logo.png" alt="" width="284" height="89"></div>
+    <div class="loader-line"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="SEA Group of Institutions — home">
+        <span class="brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link" href="institutions.html">Institutions</a>
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link" href="placements.html">Placements</a>
+        <a class="nav-link" href="campus.html">Campus</a>
+        <a class="nav-link" href="gallery.html" aria-current="page">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="btn btn-primary nav-apply" href="apply.html">Apply now</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn search-toggle" aria-label="Search the site (Ctrl+K)">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a class="btn btn-primary" href="apply.html">Apply now</a>
+        <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+      <div class="scroll-progress" aria-hidden="true"></div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Gallery</span>
+        </nav>
+        <p class="section-kicker">Through the lens</p>
+        <h1>Moments from campus.</h1>
+        <p class="lede">Thirty-six photographs and a shelf of films from across the twelve institutions. Filter by campus, click to view large.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="tab-list" role="tablist" aria-label="Gallery type">
+          <button class="tab" role="tab" id="tab-photos" aria-controls="photos" aria-selected="true">Photos</button>
+          <button class="tab" role="tab" id="tab-videos" aria-controls="videos" aria-selected="false">Videos</button>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="photos" aria-labelledby="tab-photos">
+          <div class="chip-row" data-filter-group data-filter-scope="#photos" style="margin-bottom:2rem">
+          <button class="chip active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="seacet" aria-pressed="false">SEA-CET</button>
+          <button class="chip" data-filter="degree" aria-pressed="false">SEA-Degree</button>
+          <button class="chip" data-filter="seacon" aria-pressed="false">SEA-CON</button>
+          <button class="chip" data-filter="sealaw" aria-pressed="false">SEA-Law</button>
+          <button class="chip" data-filter="seapu" aria-pressed="false">SEA-PUC</button>
+          <button class="chip" data-filter="icse" aria-pressed="false">SEA-ICSE</button>
+          <button class="chip" data-filter="seasb" aria-pressed="false">SEA-SB</button>
+          <button class="chip" data-filter="seaiti" aria-pressed="false">SEA-ITI</button>
+          <button class="chip" data-filter="seabed" aria-pressed="false">SEA-B.Ed</button>
+          </div>
+          <div class="masonry">
+          <button class="gallery-item" data-category="seacet" data-caption="SEA College of Engineering & Technology — campus moment 1" aria-label="View photo: SEA College of Engineering & Technology 1">
+            <img src="assets/img/gallery/seacet-1.jpg" alt="Campus moment at SEA College of Engineering & Technology" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CET · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacet" data-caption="SEA College of Engineering & Technology — campus moment 2" aria-label="View photo: SEA College of Engineering & Technology 2">
+            <img src="assets/img/gallery/seacet-2.jpg" alt="Campus moment at SEA College of Engineering & Technology" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CET · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacet" data-caption="SEA College of Engineering & Technology — campus moment 3" aria-label="View photo: SEA College of Engineering & Technology 3">
+            <img src="assets/img/gallery/seacet-3.jpg" alt="Campus moment at SEA College of Engineering & Technology" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CET · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacet" data-caption="SEA College of Engineering & Technology — campus moment 4" aria-label="View photo: SEA College of Engineering & Technology 4">
+            <img src="assets/img/gallery/seacet-4.jpg" alt="Campus moment at SEA College of Engineering & Technology" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CET · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="degree" data-caption="SEA College of Science, Commerce & Arts — campus moment 1" aria-label="View photo: SEA College of Science, Commerce & Arts 1">
+            <img src="assets/img/gallery/degree-1.jpg" alt="Campus moment at SEA College of Science, Commerce & Arts" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Degree · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="degree" data-caption="SEA College of Science, Commerce & Arts — campus moment 2" aria-label="View photo: SEA College of Science, Commerce & Arts 2">
+            <img src="assets/img/gallery/degree-2.jpg" alt="Campus moment at SEA College of Science, Commerce & Arts" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Degree · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="degree" data-caption="SEA College of Science, Commerce & Arts — campus moment 3" aria-label="View photo: SEA College of Science, Commerce & Arts 3">
+            <img src="assets/img/gallery/degree-3.jpg" alt="Campus moment at SEA College of Science, Commerce & Arts" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Degree · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="degree" data-caption="SEA College of Science, Commerce & Arts — campus moment 4" aria-label="View photo: SEA College of Science, Commerce & Arts 4">
+            <img src="assets/img/gallery/degree-4.jpg" alt="Campus moment at SEA College of Science, Commerce & Arts" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Degree · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacon" data-caption="SEA College of Nursing — campus moment 1" aria-label="View photo: SEA College of Nursing 1">
+            <img src="assets/img/gallery/seacon-1.jpg" alt="Campus moment at SEA College of Nursing" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CON · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacon" data-caption="SEA College of Nursing — campus moment 2" aria-label="View photo: SEA College of Nursing 2">
+            <img src="assets/img/gallery/seacon-2.jpg" alt="Campus moment at SEA College of Nursing" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CON · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacon" data-caption="SEA College of Nursing — campus moment 3" aria-label="View photo: SEA College of Nursing 3">
+            <img src="assets/img/gallery/seacon-3.jpg" alt="Campus moment at SEA College of Nursing" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CON · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seacon" data-caption="SEA College of Nursing — campus moment 4" aria-label="View photo: SEA College of Nursing 4">
+            <img src="assets/img/gallery/seacon-4.jpg" alt="Campus moment at SEA College of Nursing" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-CON · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="sealaw" data-caption="SEA College of Law — campus moment 1" aria-label="View photo: SEA College of Law 1">
+            <img src="assets/img/gallery/sealaw-1.jpg" alt="Campus moment at SEA College of Law" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Law · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="sealaw" data-caption="SEA College of Law — campus moment 2" aria-label="View photo: SEA College of Law 2">
+            <img src="assets/img/gallery/sealaw-2.jpg" alt="Campus moment at SEA College of Law" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Law · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="sealaw" data-caption="SEA College of Law — campus moment 3" aria-label="View photo: SEA College of Law 3">
+            <img src="assets/img/gallery/sealaw-3.jpg" alt="Campus moment at SEA College of Law" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Law · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="sealaw" data-caption="SEA College of Law — campus moment 4" aria-label="View photo: SEA College of Law 4">
+            <img src="assets/img/gallery/sealaw-4.jpg" alt="Campus moment at SEA College of Law" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-Law · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="seapu" data-caption="SEA Composite PU College — campus moment 1" aria-label="View photo: SEA Composite PU College 1">
+            <img src="assets/img/gallery/seapu-1.jpg" alt="Campus moment at SEA Composite PU College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-PUC · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seapu" data-caption="SEA Composite PU College — campus moment 2" aria-label="View photo: SEA Composite PU College 2">
+            <img src="assets/img/gallery/seapu-2.jpg" alt="Campus moment at SEA Composite PU College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-PUC · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seapu" data-caption="SEA Composite PU College — campus moment 3" aria-label="View photo: SEA Composite PU College 3">
+            <img src="assets/img/gallery/seapu-3.jpg" alt="Campus moment at SEA Composite PU College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-PUC · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seapu" data-caption="SEA Composite PU College — campus moment 4" aria-label="View photo: SEA Composite PU College 4">
+            <img src="assets/img/gallery/seapu-4.jpg" alt="Campus moment at SEA Composite PU College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-PUC · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="icse" data-caption="SEA International School — campus moment 1" aria-label="View photo: SEA International School 1">
+            <img src="assets/img/gallery/icse-1.jpg" alt="Campus moment at SEA International School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ICSE · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="icse" data-caption="SEA International School — campus moment 2" aria-label="View photo: SEA International School 2">
+            <img src="assets/img/gallery/icse-2.jpg" alt="Campus moment at SEA International School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ICSE · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="icse" data-caption="SEA International School — campus moment 3" aria-label="View photo: SEA International School 3">
+            <img src="assets/img/gallery/icse-3.jpg" alt="Campus moment at SEA International School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ICSE · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="icse" data-caption="SEA International School — campus moment 4" aria-label="View photo: SEA International School 4">
+            <img src="assets/img/gallery/icse-4.jpg" alt="Campus moment at SEA International School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ICSE · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="seasb" data-caption="SEA Primary & Higher Secondary School — campus moment 1" aria-label="View photo: SEA Primary & Higher Secondary School 1">
+            <img src="assets/img/gallery/seasb-1.jpg" alt="Campus moment at SEA Primary & Higher Secondary School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-SB · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seasb" data-caption="SEA Primary & Higher Secondary School — campus moment 2" aria-label="View photo: SEA Primary & Higher Secondary School 2">
+            <img src="assets/img/gallery/seasb-2.jpg" alt="Campus moment at SEA Primary & Higher Secondary School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-SB · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seasb" data-caption="SEA Primary & Higher Secondary School — campus moment 3" aria-label="View photo: SEA Primary & Higher Secondary School 3">
+            <img src="assets/img/gallery/seasb-3.jpg" alt="Campus moment at SEA Primary & Higher Secondary School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-SB · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seasb" data-caption="SEA Primary & Higher Secondary School — campus moment 4" aria-label="View photo: SEA Primary & Higher Secondary School 4">
+            <img src="assets/img/gallery/seasb-4.jpg" alt="Campus moment at SEA Primary & Higher Secondary School" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-SB · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="seaiti" data-caption="SEA Industrial Training Institute — campus moment 1" aria-label="View photo: SEA Industrial Training Institute 1">
+            <img src="assets/img/gallery/seaiti-1.jpg" alt="Campus moment at SEA Industrial Training Institute" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ITI · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seaiti" data-caption="SEA Industrial Training Institute — campus moment 2" aria-label="View photo: SEA Industrial Training Institute 2">
+            <img src="assets/img/gallery/seaiti-2.jpg" alt="Campus moment at SEA Industrial Training Institute" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ITI · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seaiti" data-caption="SEA Industrial Training Institute — campus moment 3" aria-label="View photo: SEA Industrial Training Institute 3">
+            <img src="assets/img/gallery/seaiti-3.jpg" alt="Campus moment at SEA Industrial Training Institute" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ITI · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seaiti" data-caption="SEA Industrial Training Institute — campus moment 4" aria-label="View photo: SEA Industrial Training Institute 4">
+            <img src="assets/img/gallery/seaiti-4.jpg" alt="Campus moment at SEA Industrial Training Institute" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-ITI · 04</span>
+          </button>
+
+          <button class="gallery-item" data-category="seabed" data-caption="SEA B.Ed College — campus moment 1" aria-label="View photo: SEA B.Ed College 1">
+            <img src="assets/img/gallery/seabed-1.jpg" alt="Campus moment at SEA B.Ed College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-B.Ed · 01</span>
+          </button>
+
+          <button class="gallery-item" data-category="seabed" data-caption="SEA B.Ed College — campus moment 2" aria-label="View photo: SEA B.Ed College 2">
+            <img src="assets/img/gallery/seabed-2.jpg" alt="Campus moment at SEA B.Ed College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-B.Ed · 02</span>
+          </button>
+
+          <button class="gallery-item" data-category="seabed" data-caption="SEA B.Ed College — campus moment 3" aria-label="View photo: SEA B.Ed College 3">
+            <img src="assets/img/gallery/seabed-3.jpg" alt="Campus moment at SEA B.Ed College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-B.Ed · 03</span>
+          </button>
+
+          <button class="gallery-item" data-category="seabed" data-caption="SEA B.Ed College — campus moment 4" aria-label="View photo: SEA B.Ed College 4">
+            <img src="assets/img/gallery/seabed-4.jpg" alt="Campus moment at SEA B.Ed College" width="900" height="600" loading="lazy">
+            <span class="cap">SEA-B.Ed · 04</span>
+          </button>
+          </div>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="videos" aria-labelledby="tab-videos" hidden>
+          <p class="muted" style="margin-bottom:2rem">Videos load from YouTube only when you press play.</p>
+          <div class="video-grid">
+          <button class="video-card" data-video="Ufnab88QcFU" data-title="SEA campus film" aria-label="Play video: SEA campus film">
+            <img src="assets/img/videos/Ufnab88QcFU.jpg" alt="Video thumbnail: SEA campus film" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="9TwslvoNvxM" data-title="Campus tour" aria-label="Play video: Campus tour">
+            <img src="assets/img/videos/9TwslvoNvxM.jpg" alt="Video thumbnail: Campus tour" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="dULg8Dunkyc" data-title="Student life at SEA" aria-label="Play video: Student life at SEA">
+            <img src="assets/img/videos/dULg8Dunkyc.jpg" alt="Video thumbnail: Student life at SEA" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="Hdh_nwWxMns" data-title="Events at SEA" aria-label="Play video: Events at SEA">
+            <img src="assets/img/videos/Hdh_nwWxMns.jpg" alt="Video thumbnail: Events at SEA" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="Or8Z155P8n4" data-title="SEA celebrations" aria-label="Play video: SEA celebrations">
+            <img src="assets/img/videos/Or8Z155P8n4.jpg" alt="Video thumbnail: SEA celebrations" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="PNPvgO0SxQE" data-title="Academics at SEA" aria-label="Play video: Academics at SEA">
+            <img src="assets/img/videos/PNPvgO0SxQE.jpg" alt="Video thumbnail: Academics at SEA" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="RQcE5ueJuKk" data-title="Sports day" aria-label="Play video: Sports day">
+            <img src="assets/img/videos/RQcE5ueJuKk.jpg" alt="Video thumbnail: Sports day" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="Rcwa6mFPLMY" data-title="Campus highlights" aria-label="Play video: Campus highlights">
+            <img src="assets/img/videos/Rcwa6mFPLMY.jpg" alt="Video thumbnail: Campus highlights" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+
+          <button class="video-card" data-video="TLWdykWyoTo" data-title="SEA moments" aria-label="Play video: SEA moments">
+            <img src="assets/img/videos/TLWdykWyoTo.jpg" alt="Video thumbnail: SEA moments" width="480" height="360" loading="lazy">
+            <span class="play" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5Z" fill="currentColor" stroke="none"/></svg></span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-band cta-band">
+      <div class="container">
+        <p class="section-kicker" style="justify-content:center">Picture yourself here</p>
+        <h2>The next photo could have you in it.</h2>
+        <p class="lede">Admissions for 2026–27 are open across all twelve institutions.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="apply.html">Apply now <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-outline" href="contact.html">Talk to admissions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+      <button class="icon-btn lightbox-close" aria-label="Close photo viewer">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <img src="" alt="">
+      <div class="lightbox-bar">
+        <button class="icon-btn lightbox-prev" aria-label="Previous photo">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg>
+        </button>
+        <span class="lightbox-caption"></span>
+        <span class="lightbox-counter tabular"></span>
+        <button class="icon-btn lightbox-next" aria-label="Next photo">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-watermark" aria-hidden="true">SEA</span>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+          <p>South East Asian Education Trust — academic excellence, meaningful experiences and a community built to shape reflective global citizens since 2000.</p>
+          <div class="footer-links" style="margin-top:1rem">
+            <a href="https://www.facebook.com/share/1C2GkDRqiD/" target="_blank" rel="noopener">Facebook ↗</a>
+            <a href="https://www.instagram.com/sea_group_of_institutions/" target="_blank" rel="noopener">Instagram ↗</a>
+            <a href="https://youtube.com/@seaedu2023" target="_blank" rel="noopener">YouTube ↗</a>
+          </div>
+        </div>
+        <nav aria-label="Explore">
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="about.html">About us</a>
+            <a href="programs.html">Programs</a>
+            <a href="institutions.html">Institutions</a>
+            <a href="campus.html">Campus life</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </nav>
+        <nav aria-label="Admissions">
+          <h3>Admissions</h3>
+          <div class="footer-links">
+            <a href="admissions.html">How to join</a>
+            <a href="apply.html">Apply online</a>
+            <a href="placements.html">Placements</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </nav>
+        <div>
+          <h3>Reach us</h3>
+          <div class="footer-links">
+            <a href="tel:+916366453030">+91 63664 53030</a>
+            <a href="tel:+917353945999">+91 73539 45999</a>
+            <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a>
+          </div>
+          <p style="margin-top:.75rem">Ekta Nagar, Basavanapura, Virgonagar P.O.,<br>K R Puram, Bengaluru — 560049</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Email for updates" aria-label="Email address for updates" autocomplete="email">
+            <button class="btn btn-primary" type="button">Notify me</button>
+          </div>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 South East Asian Education Trust, Bengaluru</span>
+        <span>Original redesign concept — built with HTML, CSS &amp; vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="palette-box">
+      <div class="palette-input-row">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input class="palette-input" type="search" placeholder="Search pages, programs, institutions…" aria-label="Search the site" autocomplete="off">
+        <kbd>Esc</kbd>
+      </div>
+      <div class="palette-results"></div>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+  </button>
+</body>
+</html>

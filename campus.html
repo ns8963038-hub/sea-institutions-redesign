@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Life | SEA Group of Institutions</title>
+  <meta name="description" content="Life on the SEA campus — infrastructure, digital facilities, hostels with 24-hour security, sports grounds and a culture of happiness.">
+  <meta property="og:title" content="Campus Life | SEA Group of Institutions">
+  <meta property="og:description" content="Life on the SEA campus — infrastructure, digital facilities, hostels with 24-hour security, sports grounds and a culture of happiness.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero/campus-life.jpg">
+  <meta name="theme-color" content="#0D5C46">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>
+    /* Apply the saved theme before first paint — no flash of wrong theme. */
+    (function () {
+      try {
+        var t = JSON.parse(localStorage.getItem('sea-theme'));
+        document.documentElement.dataset.theme =
+          t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crest"><img src="assets/logo/logo.png" alt="" width="284" height="89"></div>
+    <div class="loader-line"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="SEA Group of Institutions — home">
+        <span class="brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link" href="institutions.html">Institutions</a>
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link" href="placements.html">Placements</a>
+        <a class="nav-link" href="campus.html" aria-current="page">Campus</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="btn btn-primary nav-apply" href="apply.html">Apply now</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn search-toggle" aria-label="Search the site (Ctrl+K)">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a class="btn btn-primary" href="apply.html">Apply now</a>
+        <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+      <div class="scroll-progress" aria-hidden="true"></div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Campus life</span>
+        </nav>
+        <p class="section-kicker">Life at SEA</p>
+        <h1>A campus that gives back your energy.</h1>
+        <p class="lede">Landscaped gardens, serious laboratories, warm hostels and honest food — the SEA campus in K R Puram is built for whole students, not just syllabi.</p>
+      </div>
+    </section>
+
+    <!-- Sticky section nav -->
+    <div class="section-nav" aria-label="Campus sections">
+      <div class="container">
+        <a href="#infrastructure" class="active">Infrastructure</a>
+        <a href="#digital">Digital campus</a>
+        <a href="#hostels">Hostels</a>
+        <a href="#sports">Sports</a>
+      </div>
+    </div>
+
+    <!-- Infrastructure -->
+    <section class="section" id="infrastructure">
+      <div class="container split">
+        <div class="image-frame reveal-left">
+          <img src="assets/img/campus/campus-infrastructurr.jpeg" alt="SEA campus buildings with landscaped internal roads" width="1363" height="583" loading="lazy">
+        </div>
+        <div class="reveal-right">
+          <p class="section-kicker">Infrastructure</p>
+          <h2>Built to a standard, kept like a garden.</h2>
+          <div class="body-text">
+            <p>The campus meets every infrastructure requirement specified by its governing institutions — and then some. Rich green environments, properly built internal roadways and street lighting frame well-designed, well-ventilated classrooms.</p>
+            <p>Beautifully planted gardens let students refresh mind and body between classes, while training sessions keep the laboratories current in both hardware and software.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top:3rem">
+        <div class="grid grid-3" data-stagger="70">
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M2 6h8a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H2ZM22 6h-8a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h8Z"/></svg></span>
+            <h3>Central library</h3>
+            <p>Books, magazines, journals and newspapers with separate reading rooms, a computer zone, microfilming space, documentation centre and audio-visual room.</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></span>
+            <h3>Computer laboratories</h3>
+            <p>Network-enabled labs connected through a centralised server room, with regular hardware and software training sessions.</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg></span>
+            <h3>Auditorium</h3>
+            <p>A dedicated auditorium for major events, alongside lecture and performance theatres across campus.</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M6.5 6.5v11m11-11v11M2 9.5v5m20-5v5M6.5 12h11"/></svg></span>
+            <h3>Gym & fitness</h3>
+            <p>A campus gym designed to help students burn off surplus energy and stay match-fit.</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
+            <h3>Sports courts</h3>
+            <p>Football and cricket fields plus basketball, volleyball and badminton courts.</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 12h6M9 16h6"/></svg></span>
+            <h3>Guest house</h3>
+            <p>An on-campus guest house that accommodates visiting faculty and guests.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Digital -->
+    <section class="section section-alt" id="digital">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Digital campus</p>
+          <h2>A digitally wired academic life.</h2>
+          <p class="lede">SEA has implemented innovative digital tools and facilities to improve student engagement, alumni relationships, industry connectivity and administrative efficiency.</p>
+        </div>
+        <div class="grid grid-4" data-stagger="50">
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">SEA App</h3>
+            <p>Alumni relationships and industry connects</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">AICTE Portal</h3>
+            <p>Academic standards and infrastructure</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Google Meet</h3>
+            <p>Virtual webinars and panel discussions</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Campus Wi-Fi</h3>
+            <p>High-speed internet across the campus</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Laptops</h3>
+            <p>The right hardware for every academic stream</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">ICT Classrooms</h3>
+            <p>ICT tools for innovative teaching</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Firewall</h3>
+            <p>Network security monitoring data safety</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">CCTV</h3>
+            <p>Video surveillance of every block on campus</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">NPF System</h3>
+            <p>Online application indication for users</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Google Workspace</h3>
+            <p>Official email on the institute domain</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Placement App</h3>
+            <p>Placement and internship opportunities</p>
+          </article>
+
+          <article class="card facility-card reveal">
+            <h3 style="font-size:1rem">Digital Library</h3>
+            <p>Access to a wide range of digital resources</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hostels -->
+    <section class="section" id="hostels">
+      <div class="container split">
+        <div class="reveal-left">
+          <p class="section-kicker">Hostels &amp; accommodation</p>
+          <h2>A second home, seriously kept.</h2>
+          <ul class="feature-list">
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>Separate hostels for boys and girls inside the college campus</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>Comfortable, well-furnished rooms with 24-hour security and housekeeping</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>Campus cafeteria serving a variety of cuisines</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>Round-the-clock medical facilities</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>A separate hostel for international students</li>
+          </ul>
+          <p class="small muted" style="margin-top:1.5rem"><strong>Ragging is strictly prohibited</strong> inside and outside the campus and hostels, per Section 116 of the Karnataka Education Act 1983. Anti-ragging committees and squads of senior faculty and wardens act on any incident, with action as per law.</p>
+        </div>
+        <div class="image-frame reveal-right">
+          <img src="assets/img/campus/campus-information-img.jpg" alt="Students on the SEA campus grounds" width="1320" height="600" loading="lazy">
+        </div>
+      </div>
+      <div class="container" style="margin-top:3rem">
+        <p class="section-kicker">Student support cells</p>
+        <div class="value-added-cloud reveal">
+          <span>Student Counselling Cell</span>
+          <span>Anti Sexual Harassment Cell</span>
+          <span>Anti-Ragging Cell</span>
+          <span>Parents Relation Centre</span>
+          <span>Student & Teacher Welfare Cell</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sports -->
+    <section class="section section-alt" id="sports">
+      <div class="container split">
+        <div class="image-frame reveal-left">
+          <img src="assets/img/campus/campus-img.jpg" alt="Open sports grounds at the SEA campus" width="735" height="552" loading="lazy">
+        </div>
+        <div class="reveal-right">
+          <p class="section-kicker">Sports</p>
+          <h2>Play is part of the timetable.</h2>
+          <div class="body-text">
+            <p>The SEA multipurpose indoor stadium and grounds host both indoor and outdoor games — football and cricket fields, basketball, volleyball and badminton courts, and a campus gym.</p>
+            <p>Sports and co-curricular activities play a vital role in shaping a complete student: the Trust actively supports yoga, meditation, inter-college fests, sports and science clubs, seminars, quizzing and debates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety note -->
+    <section class="section">
+      <div class="container split">
+        <div class="reveal-left">
+          <p class="section-kicker">Safe &amp; secure</p>
+          <h2>A diverse community, well looked after.</h2>
+        </div>
+        <div class="reveal-right body-text">
+          <p>Students from across India and abroad make up the SEA campus community. A dedicated security chief oversees the entire campus — including the residential areas — with round-the-clock security, guarded entry and exit points at the main building and hostels, and an access protocol that keeps daily life hassle-free.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-band cta-band">
+      <div class="container">
+        <p class="section-kicker" style="justify-content:center">See it in person</p>
+        <h2>The gardens photograph well. They're better in person.</h2>
+        <p class="lede">Plan a campus visit — the admissions team will show you around.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="apply.html">Apply now <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-outline" href="contact.html">Talk to admissions</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-watermark" aria-hidden="true">SEA</span>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+          <p>South East Asian Education Trust — academic excellence, meaningful experiences and a community built to shape reflective global citizens since 2000.</p>
+          <div class="footer-links" style="margin-top:1rem">
+            <a href="https://www.facebook.com/share/1C2GkDRqiD/" target="_blank" rel="noopener">Facebook ↗</a>
+            <a href="https://www.instagram.com/sea_group_of_institutions/" target="_blank" rel="noopener">Instagram ↗</a>
+            <a href="https://youtube.com/@seaedu2023" target="_blank" rel="noopener">YouTube ↗</a>
+          </div>
+        </div>
+        <nav aria-label="Explore">
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="about.html">About us</a>
+            <a href="programs.html">Programs</a>
+            <a href="institutions.html">Institutions</a>
+            <a href="campus.html">Campus life</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </nav>
+        <nav aria-label="Admissions">
+          <h3>Admissions</h3>
+          <div class="footer-links">
+            <a href="admissions.html">How to join</a>
+            <a href="apply.html">Apply online</a>
+            <a href="placements.html">Placements</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </nav>
+        <div>
+          <h3>Reach us</h3>
+          <div class="footer-links">
+            <a href="tel:+916366453030">+91 63664 53030</a>
+            <a href="tel:+917353945999">+91 73539 45999</a>
+            <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a>
+          </div>
+          <p style="margin-top:.75rem">Ekta Nagar, Basavanapura, Virgonagar P.O.,<br>K R Puram, Bengaluru — 560049</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Email for updates" aria-label="Email address for updates" autocomplete="email">
+            <button class="btn btn-primary" type="button">Notify me</button>
+          </div>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 South East Asian Education Trust, Bengaluru</span>
+        <span>Original redesign concept — built with HTML, CSS &amp; vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="palette-box">
+      <div class="palette-input-row">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input class="palette-input" type="search" placeholder="Search pages, programs, institutions…" aria-label="Search the site" autocomplete="off">
+        <kbd>Esc</kbd>
+      </div>
+      <div class="palette-results"></div>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+  </button>
+</body>
+</html>

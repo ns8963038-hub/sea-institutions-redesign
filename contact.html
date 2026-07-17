@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | SEA Group of Institutions</title>
+  <meta name="description" content="Reach SEA Group of Institutions — phone, email, campus address in K R Puram Bengaluru, open hours and a quick message form.">
+  <meta property="og:title" content="Contact Us | SEA Group of Institutions">
+  <meta property="og:description" content="Reach SEA Group of Institutions — phone, email, campus address in K R Puram Bengaluru, open hours and a quick message form.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero/campus-life.jpg">
+  <meta name="theme-color" content="#0D5C46">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>
+    /* Apply the saved theme before first paint — no flash of wrong theme. */
+    (function () {
+      try {
+        var t = JSON.parse(localStorage.getItem('sea-theme'));
+        document.documentElement.dataset.theme =
+          t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crest"><img src="assets/logo/logo.png" alt="" width="284" height="89"></div>
+    <div class="loader-line"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="SEA Group of Institutions — home">
+        <span class="brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link" href="institutions.html">Institutions</a>
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link" href="placements.html">Placements</a>
+        <a class="nav-link" href="campus.html">Campus</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
+        <a class="btn btn-primary nav-apply" href="apply.html">Apply now</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn search-toggle" aria-label="Search the site (Ctrl+K)">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a class="btn btn-primary" href="apply.html">Apply now</a>
+        <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+      <div class="scroll-progress" aria-hidden="true"></div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Contact</span>
+        </nav>
+        <p class="section-kicker">Get in touch</p>
+        <h1>We'd love to hear from you.</h1>
+        <p class="lede">Questions about programs, admissions or campus visits — the SEA team answers Monday to Saturday, 10 AM to 5 PM.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="card" style="padding:2.5rem">
+          <p class="section-kicker">Send a message</p>
+          <h2 style="font-size:var(--text-h3);margin-bottom:1.5rem">Send us a quick message.</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="c-name">Name <span class="req" aria-hidden="true">*</span></label>
+                <input id="c-name" name="name" type="text" required data-validate="name" autocomplete="name" maxlength="60">
+                <p class="error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="c-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="c-email" name="email" type="email" required data-validate="email" autocomplete="email">
+                <p class="error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="c-phone">Phone</label>
+                <input id="c-phone" name="phone" type="tel" data-validate="phone" autocomplete="tel" inputmode="tel">
+                <p class="error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="c-subject">Subject <span class="req" aria-hidden="true">*</span></label>
+                <input id="c-subject" name="subject" type="text" required maxlength="90">
+                <p class="error" aria-live="polite"></p>
+              </div>
+              <div class="field full">
+                <label for="c-message">Message <span class="req" aria-hidden="true">*</span></label>
+                <textarea id="c-message" name="message" required maxlength="600" rows="5"></textarea>
+                <div class="char-counter" aria-hidden="true"></div>
+                <p class="error" aria-live="polite"></p>
+              </div>
+            </div>
+            <p class="small muted" style="margin-top:1rem">This demonstration validates your message locally — nothing is transmitted. For a reply, use the email or phone alongside.</p>
+            <div class="form-nav" style="justify-content:flex-end">
+              <button class="btn btn-primary" type="submit">Check my message <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            </div>
+          </form>
+        </div>
+
+        <div style="display:grid;gap:1rem">
+          <article class="card info-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div>
+              <h3>Visit us</h3>
+              <p>Ekta Nagar, Basavanapura, Virgonagar P.O., K R Puram, Bengaluru — 560049, India</p>
+            </div>
+          </article>
+          <article class="card info-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>Call us</h3>
+              <a href="tel:+916366453030">+91 63664 53030</a>
+              <a href="tel:+917353945999">+91 73539 45999</a>
+              <a href="tel:+918029730618">080 2973 0618</a>
+            </div>
+          </article>
+          <article class="card info-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <div>
+              <h3>Write to us</h3>
+              <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a>
+              <a href="mailto:seaclgeduinfo@seaedu.ac.in">seaclgeduinfo@seaedu.ac.in</a>
+              <a href="mailto:directorplacements@seaedu.ac.in">directorplacements@seaedu.ac.in</a>
+            </div>
+          </article>
+          <article class="card info-card reveal">
+            <span class="icon-medallion" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+            <div>
+              <h3>Open hours</h3>
+              <p>Monday to Saturday<br>10:00 AM – 5:00 PM</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="map-frame reveal">
+          <iframe src="https://www.google.com/maps?q=SEA+Group+of+Institutions,+Ekta+Nagar,+Basavanapura,+K+R+Puram,+Bengaluru+560049&output=embed"
+            title="Map showing the SEA Group of Institutions campus in K R Puram, Bengaluru" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accreditations -->
+    <section class="section section-alt" id="accreditations">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Accreditations &amp; associations</p>
+          <h2>Recognised where it counts.</h2>
+          <p class="lede">Accreditation assures students that an institution meets rigorous quality standards based on current research and professional practice — and keeps demonstrating growth at every review cycle. Degrees from accredited institutions also carry weight with employers for promotions and pay.</p>
+        </div>
+        <div class="association-grid" data-stagger="60">
+          <div class="cell reveal"><img src="assets/img/associations/a1.jpg" alt="Visvesvaraya Technological University logo" width="205" height="205" loading="lazy">VTU, Belagavi</div>
+          <div class="cell reveal"><img src="assets/img/associations/a2.jpg" alt="Government of Karnataka emblem" width="205" height="205" loading="lazy">Govt. of Karnataka</div>
+          <div class="cell reveal"><img src="assets/img/associations/a3.jpg" alt="ISO logo" width="205" height="205" loading="lazy">ISO Certified</div>
+          <div class="cell reveal"><img src="assets/img/associations/a4.jpg" alt="NAAC logo" width="205" height="205" loading="lazy">NAAC</div>
+          <div class="cell reveal"><img src="assets/img/associations/a5.jpg" alt="National Board of Accreditation logo" width="205" height="205" loading="lazy">NBA</div>
+          <div class="cell reveal"><img src="assets/img/associations/a6.jpg" alt="University Grants Commission logo" width="205" height="205" loading="lazy">UGC</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-watermark" aria-hidden="true">SEA</span>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand-badge"><img src="assets/logo/logo.png" alt="SEA Group of Institutions crest" width="284" height="89"></span>
+          <p>South East Asian Education Trust — academic excellence, meaningful experiences and a community built to shape reflective global citizens since 2000.</p>
+          <div class="footer-links" style="margin-top:1rem">
+            <a href="https://www.facebook.com/share/1C2GkDRqiD/" target="_blank" rel="noopener">Facebook ↗</a>
+            <a href="https://www.instagram.com/sea_group_of_institutions/" target="_blank" rel="noopener">Instagram ↗</a>
+            <a href="https://youtube.com/@seaedu2023" target="_blank" rel="noopener">YouTube ↗</a>
+          </div>
+        </div>
+        <nav aria-label="Explore">
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="about.html">About us</a>
+            <a href="programs.html">Programs</a>
+            <a href="institutions.html">Institutions</a>
+            <a href="campus.html">Campus life</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </nav>
+        <nav aria-label="Admissions">
+          <h3>Admissions</h3>
+          <div class="footer-links">
+            <a href="admissions.html">How to join</a>
+            <a href="apply.html">Apply online</a>
+            <a href="placements.html">Placements</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </nav>
+        <div>
+          <h3>Reach us</h3>
+          <div class="footer-links">
+            <a href="tel:+916366453030">+91 63664 53030</a>
+            <a href="tel:+917353945999">+91 73539 45999</a>
+            <a href="mailto:seaeduinfo@seaedu.ac.in">seaeduinfo@seaedu.ac.in</a>
+          </div>
+          <p style="margin-top:.75rem">Ekta Nagar, Basavanapura, Virgonagar P.O.,<br>K R Puram, Bengaluru — 560049</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Email for updates" aria-label="Email address for updates" autocomplete="email">
+            <button class="btn btn-primary" type="button">Notify me</button>
+          </div>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 South East Asian Education Trust, Bengaluru</span>
+        <span>Original redesign concept — built with HTML, CSS &amp; vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="palette-box">
+      <div class="palette-input-row">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input class="palette-input" type="search" placeholder="Search pages, programs, institutions…" aria-label="Search the site" autocomplete="off">
+        <kbd>Esc</kbd>
+      </div>
+      <div class="palette-results"></div>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+  </button>
+</body>
+</html>
