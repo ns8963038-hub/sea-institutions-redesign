@@ -893,3 +893,8 @@
 @media print {
   .site-header, .site-footer, .ticker, .back-to-top, .compare-bar, .loader { display: none !important; }
 }
+
+/* Watermark glyphs are CSS-generated (decorative, exempt from
+   text-contrast rules) — the span itself holds no text. */
+.watermark::before,
+.footer-watermark::before { content: attr(data-text); }
