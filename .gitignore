@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Dependencies / build output (none used — belt and suspenders)
+node_modules/
+dist/
+build/
+.env
+
+# Scraped source material — reference only, not part of the site
+content/
+raw-html/
+extract-content.js
+scrape-content.js
+site-map.json
+brand-brief.md
+design-system/
